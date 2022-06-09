@@ -1,0 +1,30 @@
+.app__navbar{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 15px 10px -15px #111;  
+    position: fixed;
+}
+
+.app__navbar-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.order_now a{
+    color: #076e97;
+}
+
+.order_now a:hover{
+    color: blue;
+}
+
+.send_email a {
+    color: #000000;
+}
