@@ -1,19 +1,31 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.section__padding {
+  padding: 4.5rem 0rem;
 }
 
-.bg__app{
-  background:#ffffff;
-}
-
-.app__flex{
+.flex__center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.section-padding{
-  padding: 4rem 0;
+.app__bg {
+  background: #fff;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.custom__button {
+  background-color:#5FB2E6;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
 }

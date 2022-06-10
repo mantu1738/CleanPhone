@@ -1,0 +1,9 @@
+.app__video{
+    background: #5FB2E6;
+    margin-top: -22rem;
+    z-index: 2;
+}
+
+.app__video-content{
+    margin-top: 2rem;
+}
